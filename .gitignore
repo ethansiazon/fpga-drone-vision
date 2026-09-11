@@ -1,0 +1,36 @@
+# Local editor and Python environment
+.vscode/
+.idea/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Downloaded datasets and generated artifacts
+archive/
+dataset/
+datasets/
+CNN_DATASET/
+data/
+outputs/
+checkpoints/
+runs/
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.pth
+*.pt
+*.onnx
+
+# Operating system files
+.DS_Store
+Thumbs.db
