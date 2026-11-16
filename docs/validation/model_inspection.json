@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "parameters": 331114,
+  "completed_epoch": 8,
+  "next_epoch_recovery_counter": 9,
+  "input_bchw": [
+    1,
+    3,
+    192,
+    256
+  ],
+  "head_shapes_bchw": [
+    [
+      1,
+      21,
+      48,
+      64
+    ],
+    [
+      1,
+      21,
+      24,
+      32
+    ]
+  ],
+  "ema_strict_load": true,
+  "clipped_values": 0,
+  "random_probe_float_vs_fixed_max_abs": [
+    0.008348464965820312,
+    0.005205661058425903
+  ],
+  "checkpoint_sha256": "be7a50e9f03d758e7eb8c8b92ff3a1a89a09aeff7fa5bbcec94ed9c6cb7e7b74",
+  "quantized_model_sha256": "d6c0f5dec98c8b7c4663b8763717457b289ef600a676f6ca6ffb42ed5f9f5867",
+  "torch": "2.4.1+cpu",
+  "scope": "Loading/shape/random-input smoke check, not an accuracy evaluation."
+}

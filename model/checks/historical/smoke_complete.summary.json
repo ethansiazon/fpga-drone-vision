@@ -1,0 +1,34 @@
+{
+  "complete": true,
+  "error": null,
+  "input": "C:\\Users\\ethan\\Desktop\\Genesys2_Teammate_Handoff_20261028\\cv_model\\examples\\smoke_input.mp4",
+  "input_sha256": "878347f306252e7934ea2ce7323a063d817873ec6220ebb834b477747fab30a0",
+  "frames": 469,
+  "native_fps": 25.0,
+  "native_size": [
+    568,
+    484
+  ],
+  "prediction_frames": 202,
+  "cnn_calls": 358,
+  "clipped_values": 0,
+  "offline_seconds": 13.59,
+  "controller": {
+    "acquire_score": 0.15,
+    "maintain_score": 0.06,
+    "acquisition_hits": 2,
+    "maximum_missed_updates": 1,
+    "maximum_observation_age": 0.6,
+    "maximum_without_high_score": 1.0,
+    "search_scale": 4.0,
+    "minimum_search_width": 80.0,
+    "maximum_search_width": 256.0,
+    "search_aspect": 0.75,
+    "association_diagonal": 1.5,
+    "minimum_association_radius": 8.0,
+    "minimum_side_ratio": 0.25,
+    "maximum_side_ratio": 4.0
+  },
+  "checkpoint_sha256": "be7a50e9f03d758e7eb8c8b92ff3a1a89a09aeff7fa5bbcec94ed9c6cb7e7b74",
+  "scope": "CPU fixed-point replay, same R9 proposal/association policy. Native source clock, up to 10 updates/s with assumed 90ms availability. Not FPGA speed or accuracy; no ground truth used."
+}

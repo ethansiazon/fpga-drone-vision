@@ -1,0 +1,9 @@
+# Preserve exact imported bytes for numerical and hardware provenance.
+* -text
+*.pt binary
+*.bin binary
+*.npy binary
+*.npz binary
+*.gz binary
+*.bit binary
+*.ltx binary

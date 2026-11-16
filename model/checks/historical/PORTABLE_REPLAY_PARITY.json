@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "frames": 469,
+  "exact_per_frame_fields": [
+    "frame",
+    "source_time_seconds",
+    "tracker_active",
+    "neural_confidence",
+    "box_native",
+    "centre_native",
+    "measurement_age_seconds"
+  ],
+  "original_records_sha256": "5a8f42d33cd09c8153efd98b77a8efc45849ddf0ef7b67f3710939e2bf332b90",
+  "portable_records_sha256": "2bbd271411b01945899744c195ede90b3e210e99b0a45d267ca44f55abd18e2c",
+  "prediction_frames": 202,
+  "scope": "All per-frame outputs identical to saved original R9 replay on this complete 469-frame clip; not new accuracy or FPGA validation."
+}

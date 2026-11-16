@@ -1,36 +1,45 @@
-# Local editor and Python environment
-.vscode/
-.idea/
-.venv/
-venv/
-__pycache__/
+# Environments, generated builds, and local recordings
+**/__pycache__/
 *.py[cod]
-.pytest_cache/
-
-# Secrets and local configuration
-.env
-.env.*
-*.pem
-*.key
-
-# Downloaded datasets and generated artifacts
-archive/
-dataset/
-datasets/
-CNN_DATASET/
-data/
-outputs/
-checkpoints/
-runs/
+.venv*/
+build/
+builds/
+local_results/
+local_artifacts/
+**/.Xil/
+**/.cache/
+**/*.runs/
+**/*.gen/
+**/*.hw/
+**/*.ip_user_files/
+**/xsim.dir/
+**/sim_export/
+**/shared_engine_prj/
+**/decoder_prj/
+hardware/genesys2/reference_oct29/vivado/*
+!hardware/genesys2/reference_oct29/vivado/*.rpt
+*.jou
+*.log
+*.str
+*.wdb
+*.vcd
+*.vvp
+*.dcp
+*.xpr
+*.xsa
 *.zip
+*.mp4
+*.mov
+*.avi
+*.png
 *.jpg
 *.jpeg
-*.png
-*.mp4
-*.pth
-*.pt
-*.onnx
-
-# Operating system files
-.DS_Store
-Thumbs.db
+*.pdf
+*.bit
+!artifacts/**/*.bit
+# Personal credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
